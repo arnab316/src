@@ -1,0 +1,75 @@
+# Python-related files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+
+# Django-related files
+*.log
+*.pot
+*.mo
+*.sqlite3
+db.sqlite3
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.pot
+
+# Environment variables file
+.env
+
+# Local development
+*.local
+*.sublime-workspace
+*.sublime-project
+.idea/
+.vscode/
+*.env
+
+# MacOS
+.DS_Store
+
+# Virtualenv
+venv/
+ENV/
+env/
+.venv/
+
+# Distribution / packaging
+.Python
+*.egg
+*.egg-info
+.eggs/
+bin/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg-info/
+*.coverage
+.tox/
+.coverage.*
+.coverage/
+*.cache
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Migrations
+migrations/
+
+# Celery
+celerybeat-schedule
+
+# Static files
+staticfiles/
+
